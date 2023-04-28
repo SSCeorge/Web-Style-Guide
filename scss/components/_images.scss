@@ -1,0 +1,24 @@
+/* ============================================= */
+  /*              Images                           */
+  /* ============================================= */
+  
+//@import '../utilities/index';
+
+  .img-avatar {
+    @include blok;
+    margin-top: 10px;
+    max-width: 100%; 
+    max-height: 100%;
+  }
+  
+  .img-frame {
+    @include blok;
+    margin-top: 10px;
+    max-width: 100%;
+    padding: 13px;
+    border: 1px solid $white;
+  }
+  
+  .img-logo {
+    @include blok;
+  }

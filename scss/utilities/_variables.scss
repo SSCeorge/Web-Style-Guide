@@ -1,0 +1,26 @@
+//Colors
+$white: #fff;
+$grey: #777;
+$primary-color: #58e1c1; // aquamarine
+$secondary-color: #51ddfc; // blue diamond
+
+//Button colors
+$btn-colors: (
+  'def': #51ddfc,
+  'err': #e4757a,
+  'inf': #927bc1,
+  'scs': #63cc82,
+  'wrn': #fd7856,      
+);
+
+//Hover shades
+$def-light: lighten(map-get($btn-colors, 'def'), 15%);
+$err-light: lighten(map-get($btn-colors, 'err'), 15%);
+$inf-light: lighten(map-get($btn-colors, 'inf'), 15%);
+$scs-light: lighten(map-get($btn-colors, 'scs'), 15%);
+$wrn-light: lighten(map-get($btn-colors, 'wrn'), 15%);
+
+
+//Media Query
+$breakpoint-m: 768px;
+$breakpoint-l: 1400px;

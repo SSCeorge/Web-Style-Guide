@@ -1,0 +1,56 @@
+/* ============================================= */
+  /*              Buttons                          */
+  /* ============================================= */
+
+//@import '../utilities/index';
+  
+  .btn {
+    margin-top: 15px;
+    width: 100%;
+    color: $white;
+    border: none;
+    padding: 10px 0;
+    text-transform: uppercase;
+    transition: background-color 0.2s ease-in;
+    @include brdr-rnd;
+  }
+  
+  .default {
+    //background-color: #51ddfc;
+    background-color: map-get($btn-colors, 'def');
+    &:hover {
+      background-color: $def-light;
+    }
+  }
+  
+  .error {
+    //background-color: #e4757a;
+    background-color: map-get($btn-colors, 'err');
+    &:hover {
+      background-color: $err-light;
+    }
+  }
+  
+  .info {
+    //background-color: #927bc1;
+    background-color: map-get($btn-colors, 'inf');
+    &:hover {
+      background-color: $inf-light;
+    }
+  }
+  
+  .success {
+    //background-color: #63cc82;
+    background-color: map-get($btn-colors, 'scs');
+    &:hover {
+      background-color: $scs-light;
+    }
+  }
+  
+  .warning {
+    //background-color: #fd7856;
+    background-color: map-get($btn-colors, 'wrn');
+    &:hover {
+      background-color: $wrn-light;
+    }
+  }
